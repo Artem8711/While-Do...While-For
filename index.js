@@ -48,23 +48,23 @@ for (let f = 10; f <= 50; f++) {
 let g = 1;
 let sum1 = 0;
 while (g <= 100) {
-   sum += g;
+   sum1 += g;
    g++;
 }
-console.log('Сума:', sum);
+console.log('Сума:', sum1);
 /////////////
 
 let h = 1;
 let sum2 = 0;
 do {
-   sum += h;
+   sum2 += h;
    h++;
 } while (h <= 100);
-console.log('Сума:', sum);
+console.log('Сума:', sum2);
 /////////////
 
 let sum3 = 0;
 for (let i = 1; i <= 100; i++) {
-   sum += i;
+   sum3 += i;
 }
-console.log('Сума:', sum);
+console.log('Сума:', sum3);
